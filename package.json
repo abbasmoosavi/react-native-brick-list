@@ -1,6 +1,6 @@
 {
-  "name": "react-native-react-native-brick-list",
-  "version": "1.0.1",
+  "name": "react-native-brick-list",
+  "version": "1.0.2",
   "description": "Grid list with wrap content width",
   "main": "index.js",
   "files": [
