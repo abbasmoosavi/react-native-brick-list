@@ -1,0 +1,1 @@
+export {default as BrickList} from './src/BrickList';

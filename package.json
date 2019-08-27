@@ -1,0 +1,52 @@
+{
+  "name": "react-native-react-native-brick-list",
+  "version": "1.0.0",
+  "description": "Grid list with wrap content width",
+  "main": "index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow",
+    "lint": "eslint .",
+    "bootstrap": "yarn && yarn --cwd example",
+    "example": "yarn --cwd example",
+    "release": "yarn release-it"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-brick-list",
+    "react-native-grid-list",
+    "list",
+    "grid",
+    "brick"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbasmoosavi/react-native-brick-list.git"
+  },
+  "author": "Abbas Moosavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abbasmoosavi/react-native-brick-list/issues"
+  },
+  "homepage": "https://github.com/abbasmoosavi/react-native-brick-list#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/__setup__/enzyme.js"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/node_modules"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
