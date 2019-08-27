@@ -1,11 +1,8 @@
 {
   "name": "react-native-brick-list",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Grid list with wrap content width",
-  "main": "index.js",
-  "files": [
-    "src/"
-  ],
+  "main": "BrickList.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "flow": "flow",
